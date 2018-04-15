@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--actionbar里每个item的优先级，值越大优先级越低，
+    actionbar地方不够就会放到overflow中-->
+
+    <item android:id="@+id/id_map_common"
+        app:showAsAction="never"
+        android:title="普通地图"/>
+    <item android:id="@+id/id_map_sate"
+        app:showAsAction="never"
+        android:title="卫星地图"/>
+    <item android:id="@+id/id_map_traffic"
+        app:showAsAction="never"
+        android:title="实时交通(off)"/>
+
+    <item android:id="@+id/id_map_location"
+        app:showAsAction="never"
+        android:title="回到我的位置"/>
+
+    <item android:id="@+id/id_map_mode_common"
+        app:showAsAction="never"
+        android:title="普通模式"/>
+    <item android:id="@+id/id_map_mode_following"
+        app:showAsAction="never"
+        android:title="跟随模式"/>
+    <item android:id="@+id/id_map_mode_compass"
+        app:showAsAction="never"
+        android:title="罗盘模式"/>
+
+    <item android:id="@+id/id_map_overlay"
+        app:showAsAction="never"
+        android:title="添加覆盖物"/>
+
+
+
+</menu>
